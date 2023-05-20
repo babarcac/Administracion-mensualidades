@@ -1,0 +1,115 @@
+    h1 {
+        color: #C7D1D9;
+        font-size: 50px;
+        font-weight: bold;
+        Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+    }
+    
+    form {
+        margin: 0 auto;
+        width: 445px;
+        padding: 2em;
+        border: 2px solid #F2F2F2;
+        Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    input,
+    textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #F2BDD6;
+    }
+    
+    input:focus,
+    textarea:focus {
+        border-color: #000;
+    }
+    
+    textarea {
+        vertical-align: top;
+        height: 2.5em;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: #F2A2A2;
+        color: white;
+    }
+    
+    body {
+        background-image: url(/IMG/img1.gif);
+    }
+    
+    form li+li {
+        margin-top: 1em;
+    }
+    
+    label {
+        display: inline-block;
+        width: 130px;
+        text-align: right;
+        font-weight: bold;
+        color: #3F4B59;
+    }
+    
+    .button {
+        padding-left: 0px;
+    }
+    
+    button {
+        margin-left: 0em;
+    }
+    
+    button {
+        border-radius: 15px;
+        position: relative;
+        background-color: #F2F2F2;
+        border: none;
+        font-size: 14px;
+        color: #000;
+        padding: 10px 20px;
+        text-align: center;
+        transition-duration: 0.1s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+    }
+    
+    button:after {
+        background-color: #656B8C;
+        display: block;
+        position: absolute;
+        padding-top: 200%;
+        padding-left: 350%;
+        margin-left: -130px;
+        margin-top: -220%;
+        opacity: 0;
+        transition: all 0.1s
+    }
+    
+    button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
+    }
+    
+    a:link,
+    a:visited {
+        background-color: #656B8C;
+        color: #F2F2F2;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-family: sans-serif;
+        display: inline-block;
+        border-radius: 20px;
+    }

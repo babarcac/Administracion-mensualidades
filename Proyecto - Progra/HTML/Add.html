@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Integrar Cliente</title>
+    <link rel="stylesheet" href="/CSS/Add.css">
+</head>
+
+<body>
+    <h1>Registrar cliente</h1>
+    <form id="form0">
+        <ul>
+            <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="txtNombre" />
+            </li>
+            <li>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="txtApellido" />
+            </li>
+            <li>
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="txtCorreo" />
+            </li>
+            <li>
+                <label for="mensualidad">Mensualidad:</label>
+                <input type="number" id="mensualidad" name="txtMensualidad"></input>
+            </li>
+            <li>
+                <label for="montoAdeudado">Monto adeudado:</label>
+                <input type="number" id="montoAdeudado" name="txtmontoAdeudado"></input>
+            </li>
+            <li class="button">
+                <button type="" id="agregar">Agregar</button>
+            </li>
+        </ul>
+    </form>
+    <br>
+    <a href="/HTML/Homepage.html">Regresar</a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/JS/Add.js"></script>
+<script src="/JS/servicioGeneral.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</html>

@@ -1,0 +1,41 @@
+a:link,
+a:visited {
+    background-color: #fff;
+    color: #000;
+    border: 2.5px solid #8fbdd3;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+    display: inline-table;
+    border-radius: 20px;
+}
+
+a:hover,
+a:active {
+    background-color: #8fbdd3;
+    color: #fff;
+}
+
+body {
+    background-image: url(/IMG/777158.jpg);
+}
+
+h1 {
+    color: #8fbdd3;
+    font-size: 50px;
+    Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+}
+
+.boton {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+}
+
+body {
+    margin-top: 2%;
+    text-align: center;
+    Font-family: 'Didot', 'Didot LT STD', 'Hoefler' Text, Garamond, 'Calisto MT', Times 'New Roman', serif;
+}

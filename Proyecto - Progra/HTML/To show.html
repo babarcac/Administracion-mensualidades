@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostrar Clientes</title>
+    <link rel="stylesheet" href="/CSS/To show.css">
+</head>
+
+<body>
+    <h1>Lista clientes</h1>
+    <table border="1" class="table" id="tablaClientes">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Mensualidad</th>
+                <th>Monto adeudado</th>
+                <th colspan="1">Cobrar</th>
+                <th colspan="1">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <br />
+    <button onclick="refrescar()">refrescar pagina</button>
+    <a href="/HTML/Homepage.html">Volver al menu</a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="../js/servicioGeneral.js"></script>
+<script src="/JS/To show.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+</html>
